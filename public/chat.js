@@ -107,7 +107,7 @@ var accessToken = "4acd23b3ca144c168f8ad99d4e71782f",
         var msg = new SpeechSynthesisUtterance();
         msg.voiceURI = "native";
         msg.text = val;
-        msg.lang = "en-US";
+        msg.lang = "en-GB";
         window.speechSynthesis.speak(msg);
       }
       $("#spokenResponse").addClass("is-active").find(".spoken-response__text").html(val);
